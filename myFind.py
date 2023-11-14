@@ -1,3 +1,8 @@
+'''
+function will return the full paths of all the files containing the specified substring at the command line. It will recursively search all the files and subdirectories starting from the specified directory. At the end of the command, it also returns the total file size of those files found in bytes.  The total file size should be the summation of the file sizes of the regular files only.  That means that you should not include directories for the computation of the total file size.
+User can run python3 myFind.py <PATH> <STRING> in terminal.
+'''
+
 import os
 from os.path import getsize
 import sys
