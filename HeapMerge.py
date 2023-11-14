@@ -1,7 +1,7 @@
 '''
 Function will create a 2D list of lists from a file and it will sort half the sublists using radix sort and the other half using bucket sort.
 That 2d list will late be pasded by two different merge functions one will use a min heap implementation and the other is a linear merge.
-It will display the time efficiency of both merge functions.
+It will display the time efficiency of both merge functions. Takes user input for a filename in the directory and put numbers in array and creates a 2D list of sorted lists to test two different merge functions 
 '''
 
 from time import process_time
