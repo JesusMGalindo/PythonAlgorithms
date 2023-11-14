@@ -1,8 +1,7 @@
 '''
 Function will create a 2D list of lists from a file and it will sort half the sublists using radix sort and the other half using bucket sort.
 That 2d list will late be pasded by two different merge functions one will use a min heap implementation and the other is a linear merge.
-It will display the time efficiency of both merge functions. function will take a filename and put numbers into two array to test two different heapify functions one uses recursion and the other is iterative.
-it will create two max heaps using the two methods and it will compare the times of both of them.
+It will display the time efficiency of both merge functions.
 '''
 
 from time import process_time
