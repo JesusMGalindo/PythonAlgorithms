@@ -1,4 +1,9 @@
-'rom bs4 import BeautifulSoup
+'''
+Visits "https://covid19.colorado.gov/data" site and pull out the case summary snapshot tabel and puts it into a table in html
+Scrapes the case summary snapshot table from "https://covid19.colorado.gov/data" and puts infor into a html table
+'''
+
+from bs4 import BeautifulSoup
 import requests
 import pandas
 
