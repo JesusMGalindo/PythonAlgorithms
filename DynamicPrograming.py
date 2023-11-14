@@ -1,3 +1,8 @@
+'''
+Function will test three edit distance functions naive recursive, memoization, and bottom up iterative. It will compare each string in a file with the string "012345678". It will display the time complexities of all three comparing their run times.
+Takes user input for a filename in the directory and compares each number as a string to the string "012345678" via edit distance and compare run times.
+'''
+
 from time import process_time
 import os
 import os.path
