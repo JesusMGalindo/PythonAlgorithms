@@ -1,3 +1,8 @@
+'''
+Function will Get the request result from "http://www.ucdenver.edu/pages/ucdwelcomepage.aspx" page Create a JSON object loaded with the contents and from the departments in the JSON object, extract the department name, telephone, and URL into a dictionary then put the dictionary into a list.
+Extracts the department name, telephone, and URL into a dictionary then put the dictionary into a list from "http://www.ucdenver.edu/pages/ucdwelcomepage.aspx"
+'''
+
 from bs4 import BeautifulSoup
 import json
 import requests
