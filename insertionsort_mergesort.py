@@ -1,3 +1,8 @@
+'''
+Comparing the performance of the good and not-so-good sorting algorithms and experiencing the pain and penalty of not-so-good algorithm (insertion sort). User inputs which random number list to sort and outputs the time efficiency of two sorting algoritms merge sort and insertion sort.
+Askes for a file and compares time efficiency of two sort algorithms.
+'''
+
 from time import process_time
 import os
 import os.path
