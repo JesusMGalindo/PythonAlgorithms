@@ -1,3 +1,7 @@
+'''
+Given two strings s1 and s2, check if both strings are anagrams of each other.
+'''
+
 def checkAnagram(string1, string2):  # function to check anagrams
     list1 = []                          # put characters in string into arrays
     # clean strings first by removing spaces and converting to lower
