@@ -1,3 +1,8 @@
+'''
+Function will determine the shortest path of on node to all other nodes of a given graph through Dijksra's algorithm and will output the entire process of the algorithm such as each node that is added to the distance vector as well as each node that has been relaxed.
+Determines shortest path from one node to all other nodes in a graph
+'''
+
 from collections import defaultdict
 
 #https://gist.github.com/econchick/4666413
