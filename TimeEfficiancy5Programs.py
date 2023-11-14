@@ -1,3 +1,17 @@
+'''
+1. Is a menu that the user can select 5 programs
+
+2. Program 1: program generates a random integer number between 1 and 1,000.  Then it uses the famous binary search algorithm to automatically guess the generated random number.   For each try, count the number of guesses to guess the random number correctly. It will perform this 10000 times once from 1 and 1000 second from 1 and 1000000 it will compute total amount of guesses for both scenarios and the average amount of guesses
+
+3. Program 2: a timeEfficiency() that will test a listPrimeNumbers(theMaxNum) function, which takes an integer (theMaxNum) and list all prime numbers between 0 and theMaxNum sent to the function it Prints out 1) start time, 2) end time, and then 3) time taken to execute the specified function
+
+4. Program 3: A number guessing game that will randomly generate 3 unique numbers from 0 to 9. The computer will then use 2 different algorithms to guess the 3 numbers. Deterministic brute-force algorithm. In each try, it permutates 3 numbers in a deterministic way so that it guesses each set of 3 numbers only once while guessing the 3 random numbers. Pure random algorithm It will not use any prior information to guess the numbers.  For each guess, it makes a fresh new guess for three new numbers randomly from the scratch. It will perform the algotithm 10000 times each and calculate the most guesses it made in one try and the most and least amount of tries as well as the average number of guesses that solved the problem
+
+5. Program 4: program that takes a text file and an integer 'n'  and displays the top ‘n’ number of words in descending order of its occurrences (case insensitive) in the file. 
+
+6. Program 5: Reimplementing timeEfficiency() function using decorators and test it with listPrimeNumber program. 
+'''
+
 import random
 import time
 import itertools
