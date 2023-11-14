@@ -1,3 +1,8 @@
+'''
+Function will test a binary search tree and a red black tree by reading a file of numbers and inserting the number into both trees. It will then compare the heights and the number of nodes of each tree. If the file is "rand1000.txt" it will print the tree in decending order and rank.
+Takes user input for a filename in the directory and inserts them onto a binary tree and red black tree and compares them.
+'''
+
 import os
 import os.path
 from bintrees import RBTree
