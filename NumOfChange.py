@@ -1,3 +1,8 @@
+'''
+function will determine the change of a given currency and a given denomination by tw methods a brute force method and a dynamic programing method.
+Determines the change representation of a given currency using a list of denominations
+'''
+
 import numpy
  
 def minNumOfChangeNaive(denomination, target):
