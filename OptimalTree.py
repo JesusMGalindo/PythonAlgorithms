@@ -1,4 +1,9 @@
-mport json
+'''
+Function will create a tree using WordCloud API and creates an optimal search tree by putting the most frequent or biggest words closest to the root and the less frequent farther away.
+'''
+
+
+import json
 import matplotlib.pyplot as plot
 from operator import itemgetter
 import random
