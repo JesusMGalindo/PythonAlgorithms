@@ -1,3 +1,7 @@
+'''
+Sorts test data using bubble sort and quick sort comparing their time then user inputs a file of numbers to sort and a k value to determine the size of the sublists for the hybrid quivk sort bubble sort. Then the data is sorted using the hybrid quick sort bubble sort and displays the time efficiency for k - 7, k - 5, k, k + 5, and k + 7. Then it creats a graph comparing k and time of the sort using matplotlib.
+'''
+
 from cProfile import label
 import matplotlib.pyplot as plt
 from time import process_time
