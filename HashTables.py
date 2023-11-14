@@ -1,3 +1,8 @@
+'''
+function will create hash table using the naive recursive edit distance as the hash function. It will count the number of recursions of each edit distance of two string of a file comparing it to the string "012345678" and the number of recursions i takes to get the minimum edit will be the hashed index. We will also create another hash table with the same hash fuction except we will be compressing the table to only have up to 10000 slots which will end up compressing the table. It will create offline bar graphs of each of the the hash tables graphing their hashed indexes and the number of collisions of each index.
+This is the driver program for hw5 Q3 that takes user input for a filename in the directory and creates two hash tables using the naive edit distance from Q2.
+'''
+
 import os
 import os.path
 import numpy
