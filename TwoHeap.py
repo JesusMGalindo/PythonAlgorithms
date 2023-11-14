@@ -1,3 +1,8 @@
+'''
+function will take a filename and put numbers into two array to test two different heapify functions one uses recursion and the other is iterative.
+It will create two max heaps using the two methods and it will compare the times of both of them. This is the driver program for hw4 Q5 that takes user input for a filename in the directory and put numbers in array and creates two max heap arrays and compare times
+'''
+
 from time import process_time
 import os
 import os.path
